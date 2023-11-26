@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  vscode:
+    image: codercom/code-server:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app:/app
+
+  postgresql:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: sample
+
+volumes:
+  postgres_data:
+  mariadb_data:
