@@ -11,6 +11,9 @@ Java学習環境
 Docker公式
 https://www.docker.com/
 
+Docker入手先
+https://matsuand.github.io/docs.docker.jp.onthefly/get-docker/
+
 【入門】Dockerとは？概要やメリット、インストール方法をわかりやすく解説公開
 https://www.kagoya.jp/howto/cloud/container/docker/
 
@@ -79,7 +82,7 @@ VSCODEの設定は置いておいて、javaのインストール作業に入る
 
 $ sudo apt update
 $ apt install -y
-$ sudo apt install curl tree wget default-jre default-jdk postgresql-client mariadb-client
+$ sudo apt install curl tree wget default-jre default-jdk postgresql-client mariadb-client git tig
 
 確認
 
